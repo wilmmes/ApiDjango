@@ -1,7 +1,7 @@
-mi_cita_proyectodjango
-Proyecto desarrollado en Python con Djando para el modulo 5 
+mi_cita
+Proyecto desarrollado en Python y Django Rest Framework (DRF con Djando para el modulo 5 
 Sistema de Reservas
-Este es un proyecto básico de sistema de reserva de citas en con un estilista profesional desarrollado con Django y Django Rest Framework (DRF). Incluye funcionalidades para gestionar Cliente, Estilistas, citas y sus historiales de atencion.
+Este es un proyecto básico de sistema de reserva de citas en con un estilista profesional desarrollado con Django y Django Rest Framework (DRF). Incluye funcionalidades para gestionar Cliente, Profesionales Estilistas, citas y sus historiales de atencion.
 Requisitos
 •	Python 3.8 o superior
 •	Django 4.0 o superior
@@ -21,4 +21,12 @@ Instalación
 12.	Crear un superusuario:
 13.	python manage.py createsuperuser
 14.	Iniciar el servidor:
-15.	   python manage.py runserver
+15.	python manage.py runserver
+    
+Para probar las APIs directamente desde el navegador con Django REST Framework:
+Ve a las URLs que configuraste para las APIs:
+http://127.0.0.1:8000/api/clientes/
+http://127.0.0.1:8000/api/profesionales/
+http://127.0.0.1:8000/api/citas/
+http://127.0.0.1:8000/api/custom/
+Usa las opciones de la interfaz para realizar operaciones GET, POST, PUT, y DELETE sobre los datos.
