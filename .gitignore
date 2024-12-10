@@ -1,0 +1,17 @@
+# Entorno virtual
+venv/
+env/
+
+# Archivos de caché de Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Archivos del entorno
+*.env
+*.DS_Store
+
+# Dependencias (solo sube requirements.txt)
+*.log
+*.sqlite3
+db.sqlite3

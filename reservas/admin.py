@@ -1,7 +1,5 @@
 from django.contrib import admin
-from .models import Cliente, Profesional, Cita, HistorialAtencion
+from .models import Cliente, Profesional
 
 admin.site.register(Cliente)
 admin.site.register(Profesional)
-admin.site.register(Cita)
-admin.site.register(HistorialAtencion)

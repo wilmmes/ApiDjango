@@ -6,15 +6,18 @@ class ClienteSerializer(serializers.ModelSerializer):
         model = Cliente
         fields = '__all__'
 
+
 class ProfesionalSerializer(serializers.ModelSerializer):
     class Meta:
         model = Profesional
         fields = '__all__'
 
+
 class CitaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Cita
         fields = '__all__'
+
 
 class HistorialAtencionSerializer(serializers.ModelSerializer):
     class Meta:
