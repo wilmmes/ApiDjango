@@ -1,7 +1,7 @@
-mi_cita
-Proyecto desarrollado en Python y Django Rest Framework (DRF con Djando para el modulo 5 
-Sistema de Reservas
-Este es un proyecto básico de sistema de reserva de citas en con un estilista profesional desarrollado con Django y Django Rest Framework (DRF). Incluye funcionalidades para gestionar Cliente, Profesionales Estilistas, citas y sus historiales de atencion.
+Aplicacion mi_cita
+Proyecto desarrollado en Python con Djando y Django Rest Framework (DRF). 
+Gestión de  Reservas
+Este es un proyecto básico de gestión de reserva de citas con un estilista profesional desarrollado con Django y Django Rest Framework (DRF). Incluye funcionalidades para gestionar Cliente, Profesionales Estilistas, citas y sus historiales de atencion.
 Requisitos
 •	Python 3.8 o superior
 •	Django 4.0 o superior
