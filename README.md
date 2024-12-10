@@ -9,7 +9,7 @@ Requisitos
 Instalación
 1.	Clonar este repositorio:
 2.	git clone https://github.com/wilmmes/ApiDjango.git
-3.	cd mi_cita
+3.	cd ApiDjango
 4.	Crear un entorno virtual y actívalo:
 5.	python -m venv venv
 6.	venv\Scripts\activate
